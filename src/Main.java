@@ -27,7 +27,7 @@ public class Main {
                 System.out.println("Tahmininiz Yanlış");
                 if(guess>number){
                     System.out.println(guess+" sayisi, gizli sayidan büyüktür.");
-                }else if(guess<number){
+                } if (guess<number){
                     System.out.println(guess+" sayisi, gizli sayidan kücüktür.");
                 }
             }
